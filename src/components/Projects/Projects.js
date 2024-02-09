@@ -17,6 +17,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SocioHub}
+              isBlog={false}
+              title="LuxEstate"
+              description="LuxEstate is a comprehensive online platform designed and developed using the MERN stack (MongoDB,Express.js, React, Node.js). Key Features: User Registration and Authentication, Property Listing and Management (Buy, Sell, RentProperties), Wishlist, Search and Filters Functionality, Integration of AWS Services(Amazon S3, Amazon SES,AWS Bucket)"
+              ghLink="https://github.com/Sejal2819/LuxeEstate"
+              demoLink="https://luxestatee.netlify.app/"
+            />
+          </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ThreadsApp}
+              isBlog={false}
+              title="ThreadsApp"
+              description="Developed a real-time, React-based web application using Next.js and TypeScript, backed by MongoDB for data storage.Implemented a dynamic platform for users to create and engage in threaded discussions by posting and commenting on threads in real time, fostering community interaction."
+              ghLink="https://github.com/Sejal2819/Threads"
+              demoLink="https://threads-sable.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={FoodFiesta}
@@ -27,18 +47,7 @@ function Projects() {
               demoLink="https://food-fiesta-nine.vercel.app/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={SocioHub}
-              isBlog={false}
-              title="SocioHub (In Process)"
-              description="Developing a dynamic fullstack MERN application featuring responsive design, comprehensive authentication, user engagement through likes, and an intuitive dark mode, showcasing my proficiency in React, MongoDB, and MUI."
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-        </Row>
+         </Row>
       </Container>
     </Container>
   );
