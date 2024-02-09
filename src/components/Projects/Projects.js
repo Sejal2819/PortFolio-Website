@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import FoodFiesta from "../../Assets/Projects/Foodfiesta.png";
-import SocioHub from "../../Assets/Projects/SocioHub.png";
+import LuxeEstate from "../../Assets/Projects/LuxeEstate.png";
+import ThreadsApp from "../../Assets/Projects/ThreadsApp.png";
 
 function Projects() {
   return (
@@ -19,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={SocioHub}
+              imgPath={LuxeEstate}
               isBlog={false}
               title="LuxEstate"
               description="LuxEstate is a comprehensive online platform designed and developed using the MERN stack (MongoDB,Express.js, React, Node.js). Key Features: User Registration and Authentication, Property Listing and Management (Buy, Sell, RentProperties), Wishlist, Search and Filters Functionality, Integration of AWS Services(Amazon S3, Amazon SES,AWS Bucket)"
